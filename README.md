@@ -38,7 +38,9 @@ summary: "一段简短的文章介绍，会显示在首页。"
 今天沿着河边走了很久……
 ```
 
-`categories` 用来设置文章栏目，可选科研、游戏、交易、减重，也可以直接写新的栏目名。需要给一篇文章设置多个栏目时，可以写成 `categories: [科研, 游戏]`。在“文章”页面点击栏目按钮，就能筛选对应文章。
+`categories` 用来设置文章栏目，可选科研、游戏、交易、减重、Daily Work，也可以直接写新的栏目名。需要给一篇文章设置多个栏目时，可以写成 `categories: [科研, 游戏]`。在“文章”页面点击栏目按钮，就能筛选对应文章。`Daily Work` 文章也会显示在首页的工作记录区。
+
+每天的工作记录可以复制 [`_templates/daily-work.md`](_templates/daily-work.md)，改好文件名、标题和日期后保存到 `_posts` 目录。
 
 保存后把文件推送到 `main` 分支，网站会自动更新。也可以在 GitHub 网页上进入 `_posts`，选择 **Add file → Create new file** 或 **Upload files** 添加文章。
 

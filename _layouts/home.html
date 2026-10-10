@@ -76,4 +76,30 @@ layout: default
     </div>
   {% endif %}
 </section>
+{% assign daily_work_posts = site.categories["Daily Work"] %}
+<section class="daily-work-section page-shell" id="daily-work">
+  <div class="section-heading">
+    <div><p class="eyebrow">DAILY WORK <span class="eyebrow-divider">/</span> 工作记录</p><h2>Daily Work</h2></div>
+    <a class="text-link" href="{{ '/archives/' | relative_url }}">文章归档 <span aria-hidden="true">→</span></a>
+  </div>
+  {% if daily_work_posts and daily_work_posts.size > 0 %}
+    <div class="daily-work-list">
+      {% for post in daily_work_posts limit: 3 %}
+        <article class="daily-work-card">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+          <div class="daily-work-card-copy">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <p>{{ post.summary | default: post.excerpt | strip_html | normalize_whitespace | truncate: 115 }}</p>
+          </div>
+          <span class="daily-work-arrow" aria-hidden="true">↗</span>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="daily-work-empty">
+      <div><p class="daily-work-empty-kicker">工作记录 · DAILY WORK</p><p>记录每天的进展、产出、问题和下一步计划。</p></div>
+      <code>categories: [Daily Work]</code>
+    </div>
+  {% endif %}
+</section>
 <section class="about-band"><div class="about-band-inner page-shell"><span class="about-spark" aria-hidden="true">✦</span><p>把科研、实习、游戏与生活，<br>写进自己的时间档案。</p><a class="text-link" href="{{ '/about/' | relative_url }}">认识这个博客 <span aria-hidden="true">→</span></a></div></section>

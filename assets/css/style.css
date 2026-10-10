@@ -145,6 +145,20 @@ a:hover { color: var(--orange); }
 .empty-state h3 { margin: 13px 0 5px; font: 400 17px var(--serif); }
 .empty-state p { max-width: 390px; margin: 0; color: var(--muted); font: 12px/1.8 var(--serif); }
 .empty-state code { color: var(--green); font-family: var(--mono); }
+.daily-work-section { padding-bottom: 84px; }
+.daily-work-section .section-heading { margin-bottom: 18px; }
+.daily-work-section .section-heading .eyebrow { margin-bottom: 8px; }
+.daily-work-section .section-heading h2 { font: 500 22px/1.5 var(--serif); }
+.daily-work-list { border-top: 1px solid var(--line); }
+.daily-work-card { display: grid; grid-template-columns: 100px minmax(0, 1fr) 20px; align-items: start; gap: 15px; padding: 19px 8px; border-bottom: 1px solid var(--line); }
+.daily-work-card time { padding-top: 3px; color: var(--muted); font: 10px var(--mono); }
+.daily-work-card-copy h3 { margin: 0; font: 500 14px/1.6 var(--serif); }
+.daily-work-card-copy p { margin: 5px 0 0; color: var(--muted); font: 11px/1.8 var(--serif); }
+.daily-work-arrow { padding-top: 2px; color: var(--orange); text-align: right; }
+.daily-work-empty { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 19px 22px; border: 1px dashed #454a43; background: rgba(255, 255, 255, .012); }
+.daily-work-empty p { margin: 0; color: var(--muted); font: 12px/1.8 var(--serif); }
+.daily-work-empty .daily-work-empty-kicker { margin-bottom: 4px; color: var(--green); font: 9px var(--mono); letter-spacing: .08em; }
+.daily-work-empty code { flex: 0 0 auto; padding: 7px 9px; background: var(--green-light); color: var(--green); font: 10px var(--mono); }
 .about-band { background: var(--paper-deep); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .about-band-inner { min-height: 190px; display: flex; align-items: center; justify-content: space-between; }
 .about-spark { color: var(--orange); font-size: 24px; }
@@ -243,6 +257,9 @@ a:hover { color: var(--orange); }
   .contribution-header { align-items: flex-start; flex-direction: column; gap: 13px; }
   .contribution-header h2 { font-size: 19px; }
   .contribution-summary { margin: 12px 0 14px; }
+  .daily-work-section { padding-bottom: 62px; }
+  .daily-work-empty { align-items: flex-start; flex-direction: column; gap: 12px; padding: 17px; }
+  .daily-work-card { grid-template-columns: 83px minmax(0, 1fr) 16px; gap: 11px; padding: 17px 2px; }
   .latest-section { padding-bottom: 65px; }
   .featured-card { grid-template-columns: 1fr; }
   .featured-main { padding: 28px 25px 32px; }

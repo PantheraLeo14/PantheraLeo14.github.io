@@ -13,12 +13,14 @@ post_categories:
   - 游戏
   - 交易
   - 减重
+  - Daily Work
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
 exclude:
   - README.md
+  - _templates
   - Gemfile
   - Gemfile.lock
   - vendor
