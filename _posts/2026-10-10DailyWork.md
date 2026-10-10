@@ -1,10 +1,8 @@
 ---
 title: "Daily Work｜填写当天主题"
 date: "2026-10-10 20:20:00 +0800" # 填写真实日期和时间
-categories:
-  - Daily Work
-tags:
-  - 工作记录
+categories: [Daily Work]
+tags: [工作记录]
 summary: "用一句话概括今天的主要进展。"
 ---
 
