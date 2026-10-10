@@ -22,6 +22,25 @@ layout: default
     <span class="art-side-note">EST. 2026</span>
   </div>
 </section>
+<section class="contribution-section page-shell" id="contributions" data-current-year="{{ site.time | date: '%Y' }}">
+  <div class="contribution-panel">
+    <div class="contribution-header">
+      <div><p class="eyebrow">WRITING CONTRIBUTIONS <span class="eyebrow-divider">/</span> 写作足迹</p><h2>文章发布记录</h2></div>
+      <label class="contribution-year-label" for="contribution-year">年份 <select id="contribution-year"></select></label>
+    </div>
+    <p class="contribution-summary" id="contribution-summary" aria-live="polite"></p>
+    <div class="contribution-scroll" aria-label="按日期显示的文章发布热力图">
+      <div class="contribution-months" id="contribution-months" aria-hidden="true"></div>
+      <div class="contribution-chart-body">
+        <div class="contribution-weekdays" aria-hidden="true"><span>周一</span><span>周三</span><span>周五</span></div>
+        <div class="contribution-grid" id="contribution-grid" role="img"></div>
+      </div>
+    </div>
+    <div class="contribution-legend" aria-hidden="true"><span>少</span><i class="contribution-day contribution-level-0"></i><i class="contribution-day contribution-level-1"></i><i class="contribution-day contribution-level-2"></i><i class="contribution-day contribution-level-3"></i><i class="contribution-day contribution-level-4"></i><span>多</span></div>
+  </div>
+</section>
+<script id="contribution-posts" type="application/json">[{% for post in site.posts %}{"date":{{ post.date | date: '%Y-%m-%d' | jsonify }},"title":{{ post.title | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+<script src="{{ '/assets/js/contributions.js' | relative_url }}" defer></script>
 <section class="latest-section page-shell" id="latest">
   <div class="section-heading">
     <div><p class="eyebrow">LATEST NOTES <span class="eyebrow-divider">/</span> 最新更新</p><h2>最近写下的</h2></div>
