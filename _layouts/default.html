@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f6f4ee">
+    <meta name="theme-color" content="#101211">
     <meta name="description" content="{{ page.description | default: site.description | escape }}">
     <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
     <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
@@ -15,7 +15,7 @@
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}首页">
-          <span class="brand-mark" aria-hidden="true">拾</span>
+          <img class="brand-mark" src="{{ '/assets/favicon.svg' | relative_url }}" alt="" aria-hidden="true">
           <span class="brand-name">{{ site.title }}</span>
         </a>
         <nav class="site-nav" aria-label="主导航">
@@ -31,7 +31,7 @@
       <div class="footer-inner">
         <a class="footer-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <p>{{ site.description }}</p>
-        <span>用文字收藏日常 · {{ site.time | date: '%Y' }}</span>
+        <span>科研、实习、游戏与日常 · {{ site.time | date: '%Y' }}</span>
       </div>
     </footer>
   </body>

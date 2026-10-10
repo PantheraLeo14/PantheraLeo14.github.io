@@ -1,4 +1,4 @@
-# 拾页 · GitHub Pages 博客
+# PantheraLeo 的博客 · GitHub Pages
 
 这是一个用 Jekyll 构建的中文个人博客。文章写成 Markdown，推送到 GitHub 后会由 GitHub Actions 自动生成并发布。
 
