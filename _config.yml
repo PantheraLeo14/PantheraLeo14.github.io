@@ -1,0 +1,28 @@
+title: 拾页
+description: 把日子写下来，让想法有回声。
+author: 博主
+lang: zh-CN
+timezone: Asia/Shanghai
+url: "https://pantheraleo14.github.io"
+baseurl: ""
+
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+  - scripts
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

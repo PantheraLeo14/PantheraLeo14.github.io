@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="page-shell simple-page">
+  <header class="simple-page-header">
+    <p class="eyebrow">{{ page.kicker | default: 'A LITTLE ABOUT THIS SPACE' }}</p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="article-content">{{ content }}</div>
+</article>
