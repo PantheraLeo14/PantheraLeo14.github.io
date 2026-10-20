@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="article-shell">
+<article class="article-shell{% if page.wide_article %} article-shell-wide{% endif %}">
   <a class="back-link" href="{{ '/archives/' | relative_url }}"><span aria-hidden="true">←</span> 返回文章列表</a>
   <header class="article-header">
     <p class="eyebrow">{{ page.categories | join: ' · ' | default: '随笔' }}</p>
