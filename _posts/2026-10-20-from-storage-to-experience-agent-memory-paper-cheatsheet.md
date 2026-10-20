@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Storage to Experience：Agent Memory 演进综述"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [Agent Memory, ACL 2026, 综述, 论文速查表]
 summary: "梳理 Agent Memory 从轨迹存储、反思到跨轨迹经验抽象的演进框架。"

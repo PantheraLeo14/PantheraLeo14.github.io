@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MemCoE：两阶段记忆优化论文速查表"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [Agent Memory, ACL 2026, MemCoE, 论文速查表]
 summary: "拆解 MemCoE 如何分别优化记忆组织指南与长期记忆更新策略。"

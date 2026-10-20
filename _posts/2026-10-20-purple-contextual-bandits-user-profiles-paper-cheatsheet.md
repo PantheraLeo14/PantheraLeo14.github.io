@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PURPLE：上下文老虎机优化用户画像"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [Agent Memory, ACL 2026, PURPLE, 论文速查表]
 summary: "解析 PURPLE 如何使用上下文老虎机，从候选历史记录中选择并排序用户画像。"

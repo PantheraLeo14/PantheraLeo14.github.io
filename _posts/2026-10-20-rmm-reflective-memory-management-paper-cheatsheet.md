@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RMM：反思式记忆管理论文速查表"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [Agent Memory, ACL 2025, RMM, 论文速查表]
 summary: "整理 RMM 的前瞻性主题记忆组织、回顾性反思与重排序机制。"

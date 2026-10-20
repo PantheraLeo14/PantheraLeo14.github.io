@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PAMU：偏好感知记忆更新论文速查表"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [Agent Memory, ACL 2026, PAMU, 论文速查表]
 summary: "介绍 PAMU 如何结合短期窗口与长期趋势跟踪偏好变化并更新记忆提示。"

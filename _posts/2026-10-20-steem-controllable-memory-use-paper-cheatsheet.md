@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SteeM：可控记忆使用论文速查表"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [Agent Memory, ACL 2026, SteeM, 论文速查表]
 summary: "介绍 SteeM 如何衡量并调节长期交互中模型对记忆的依赖程度。"

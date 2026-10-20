@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "个性化 LLM Agent 综述：论文速查表"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [LLM Agent, 个性化, 综述, 论文速查表]
 summary: "从用户画像、记忆、规划和动作执行梳理个性化 Agent 的基础、评估与开放方向。"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agent Memory 记忆机制综述：论文速查表"
-date: 2026-10-20 20:30:00 +0800
+date: 2026-10-20 20:00:00 +0800
 categories: [科研]
 tags: [Agent Memory, 综述, 论文速查表]
 summary: "按记忆来源、表示形式与操作梳理 LLM Agent Memory 的分类体系和评估方法。"
